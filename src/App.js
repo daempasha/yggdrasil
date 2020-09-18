@@ -9,12 +9,22 @@ import {
 
 //Imports
 import 'antd/dist/antd.css';
+import Firebase from './firebase/firebase.js';
 
 //Pages
 import SignIn from './pages/SignIn/signin.component.jsx';
 import Home from './pages/Home/home.component.jsx';
 
-function App() {
+//Redux
+import { connect } from 'react-redux';
+import { STORE_FIREBASE } from '../src/redux/firebase/firebase.actions.js';
+
+function App(props) {
+  const FIREBASE = new Firebase();
+  console.log(FIREBASE);
+
+  props.dispatch(STORE_FIREBASE(FIREBASE));
+
   return (
     <Router>
       <Switch>
@@ -30,4 +40,4 @@ function App() {
   );
 }
 
-export default App;
+export default connect()(App);
