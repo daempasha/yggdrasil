@@ -21,8 +21,6 @@ import { STORE_FIREBASE } from '../src/redux/firebase/firebase.actions.js';
 
 function App(props) {
   const FIREBASE = new Firebase();
-  console.log(FIREBASE);
-
   props.dispatch(STORE_FIREBASE(FIREBASE));
 
   return (

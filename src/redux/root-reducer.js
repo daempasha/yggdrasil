@@ -4,7 +4,7 @@ import { combineReducers } from 'redux';
 import FirebaseReducer from './firebase/firebase.reducer.js';
 
 const rootReducer = combineReducers({
-    FirebaseReducer
+    firebase: FirebaseReducer
 })
 
 export default rootReducer;
