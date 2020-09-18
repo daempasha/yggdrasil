@@ -6,7 +6,7 @@ function SignIn(){
     return (
         <div className='sign-in'>
             <Card className='container' bordered={false}>
-                <h1 className='title'>Yddragsil</h1>
+                <h1 className='title'>Yggdrasil</h1>
                 <Divider />
                 <Form className='form' layout='vertical'>
                     <Form.Item>
