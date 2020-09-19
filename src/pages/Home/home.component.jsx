@@ -19,13 +19,13 @@ function Home(){
       </Header>
       <Layout className='main'>
           <Sider className='sidebar'>
-                <Menu className='menu' theme="light" mode="vertical" defaultValue={page} onClick={data => setPage(data.key)}>
+                <Menu className='menu' theme="light" mode="vertical" selectedKeys={page} onClick={data => setPage(data.key)}>
                     <Menu.Item key="notes">Notes</Menu.Item>
                     <Menu.Item key="todo">To-do List</Menu.Item>
                     <Menu.Item key="daily">Daily tasks</Menu.Item>
                     <Menu.Item key="deadlines">Deadlines</Menu.Item>
                     <Menu.Item key="reminders">Reminders</Menu.Item>
-                    <Menu.Item key="aspiration">Aspirations</Menu.Item>
+                    <Menu.Item key="aspirations">Aspirations</Menu.Item>
                 </Menu>                  
             </Sider>
 

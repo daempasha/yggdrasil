@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+import Notes from '../Notes/notes.component.jsx';
 
 function PanelSwitcher(props){
+
     const switchFunction = (page) => {
         switch (page) {
             case 'notes':
-                return <p>Notes</p>;
+                return <Notes />
             case 'todo':
                 return <p>Todo</p>;;
             case 'daily':
