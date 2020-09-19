@@ -1,32 +1,19 @@
 import React, { useState } from 'react';
-
-import Notes from '../Notes/notes.component.jsx';
+import './panelswitcher.styles.scss';
+import { Layout, PageHeader } from 'antd';
+const {Content} = Layout;
 
 function PanelSwitcher(props){
-
-    const switchFunction = (page) => {
-        switch (page) {
-            case 'Notes':
-                return <Notes />
-            case 'To-do':
-                return <p>Todo</p>;;
-            case 'Daily':
-                return <p>Daily</p>;;
-            case 'Deadlines':
-                return <p>Deadlines</p>;;   
-            case 'Reminder':
-                return <p>Reminder</p>;;
-            case 'Aspirations':
-                return <p>Aspirations</p>;;                 
-            default:
-                return 'Help';
-        }
-    }
 
 
     return (
         <>
-            {switchFunction(props.page)}
+            <PageHeader style={{marginTop: '25px'}}ghost={false} title={props.title} subTitle={props.subtitle} />
+
+            <Content style={{marginTop: '25px'}} className='content'>
+                {props.children}
+            </Content>
+            
         </>
     )
     
