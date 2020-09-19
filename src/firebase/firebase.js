@@ -1,5 +1,6 @@
 import app from 'firebase/app';
 import 'firebase/auth';
+import { useStore } from 'react-redux';
 
 var firebaseConfig = {
     apiKey: process.env.REACT_APP_API_KEY,
@@ -12,7 +13,6 @@ var firebaseConfig = {
 
 class Firebase {
     constructor(){
-        console.log(process.env.REACT_APP_API_KEY)
         app.initializeApp(firebaseConfig);
 
         this.auth = app.auth;
@@ -26,6 +26,12 @@ class Firebase {
             // The signed-in user info.
             var user = result.user;
             console.log(user);
+            
+            return {
+                status: true,
+                token: token,
+                user: user
+            };
             // ...
         }).catch(function(error) {
             // Handle Errors here.
@@ -36,6 +42,16 @@ class Firebase {
             // The firebase.auth.AuthCredential type that was used.
             var credential = error.credential;
             // ...
+            return {
+                status: false,
+                email: email,
+                credential: credential,
+                errors: {
+                    code: errorCode,
+                    message: errorMessage
+                },
+
+            };
         });
     }
 

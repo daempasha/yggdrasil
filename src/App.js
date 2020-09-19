@@ -17,11 +17,11 @@ import Home from './pages/Home/home.component.jsx';
 
 //Redux
 import { connect } from 'react-redux';
-import { STORE_FIREBASE } from '../src/redux/firebase/firebase.actions.js';
+import { STORE_TOKEN } from '../src/redux/firebase/firebase.actions.js';
 
 function App(props) {
   const FIREBASE = new Firebase();
-  props.dispatch(STORE_FIREBASE(FIREBASE));
+  props.dispatch(STORE_TOKEN(FIREBASE));
 
   return (
     <Router>

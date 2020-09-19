@@ -1,6 +1,6 @@
-export const STORE_FIREBASE = (token) => (
+export const STORE_TOKEN = (token) => (
     {
-        type: 'STORE_FIREBASE',
+        type: 'STORE_TOKEN',
         payload: token
     }
 )

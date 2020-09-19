@@ -1,12 +1,19 @@
 const INITIAL_STATE = {
-    firebase: null
+    token: null,
+    user: null
 }
 
 function FirebaseReducer(state=INITIAL_STATE, action){
     switch(action.type){
-        case 'STORE_FIREBASE':
+        case 'STORE_TOKEN':
             return {
-                firebase: action.payload,
+                ...state,
+                token: action.payload,
+            }
+        case 'STORE_USER':
+            return {
+                ...state,
+                user: action.payload
             }
         default: 
             return state;
