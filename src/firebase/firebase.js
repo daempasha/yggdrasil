@@ -20,7 +20,7 @@ class Firebase {
     }
 
     doSignInWithPopup = () => {
-        this.auth.signInWithPopup(this.provider);
+
     }
 
     doCreateUserWithEmailAndPassword = (email, password) => {
