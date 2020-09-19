@@ -5,6 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import app from 'firebase/app';
 
 
 //Imports
@@ -20,8 +21,8 @@ import { connect } from 'react-redux';
 import { STORE_TOKEN } from '../src/redux/firebase/firebase.actions.js';
 
 function App(props) {
-  const FIREBASE = new Firebase();
-  props.dispatch(STORE_TOKEN(FIREBASE));
+  const token = new Firebase();
+  props.dispatch(STORE_TOKEN(token));
 
   return (
     <Router>

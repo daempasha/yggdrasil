@@ -9,6 +9,16 @@
         width: 30vw;
         height: 50vh;
 
+        .logo-container {
+            display: flex;
+            margin-top: -80px;
+
+            .logo {
+                margin: 0 auto;
+                width: 8em;
+            }
+        }
+
         .title {
             text-align: center;
             text-transform: uppercase;
