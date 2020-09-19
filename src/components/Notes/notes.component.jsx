@@ -10,7 +10,7 @@ function Notes(props){
     
     return (
         <div className='notes'>
-            <ReactQuill theme="snow" value={value} onChange={setValue}/>
+            <ReactQuill className='quill' theme="snow" value={value} onChange={setValue}/>
 
         </div>
     );

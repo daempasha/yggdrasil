@@ -31,7 +31,7 @@ function Home(){
 
           <Layout style={{ padding: '0 24px 24px' }}>
               <PageHeader style={{marginTop: '25px'}}ghost={false} title={page} />
-              <Content style={{marginTop: '25px',padding: '24px'}} className='content'>
+              <Content style={{marginTop: '25px'}} className='content'>
                     <PanelSwitcher page={page}/>
               </Content>
           </Layout>
