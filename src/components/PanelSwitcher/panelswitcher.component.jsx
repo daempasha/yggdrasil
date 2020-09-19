@@ -6,17 +6,17 @@ function PanelSwitcher(props){
 
     const switchFunction = (page) => {
         switch (page) {
-            case 'notes':
+            case 'Notes':
                 return <Notes />
-            case 'todo':
+            case 'To-do':
                 return <p>Todo</p>;;
-            case 'daily':
+            case 'Daily':
                 return <p>Daily</p>;;
-            case 'deadlines':
+            case 'Deadlines':
                 return <p>Deadlines</p>;;   
-            case 'reminder':
+            case 'Reminder':
                 return <p>Reminder</p>;;
-            case 'aspirations':
+            case 'Aspirations':
                 return <p>Aspirations</p>;;                 
             default:
                 return 'Help';
