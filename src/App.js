@@ -9,7 +9,8 @@ import app from 'firebase/app';
 
 
 //Imports
-import 'antd/dist/antd.css';
+import './App.scss';
+import 'antd/dist/antd.less';
 import Firebase from './firebase/firebase.js';
 
 //Pages
