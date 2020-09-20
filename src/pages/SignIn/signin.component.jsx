@@ -1,6 +1,6 @@
 import React from 'react';
 import './signin.styles.scss';
-import { Row, Col, Card, Divider, Button, Form, message} from 'antd';
+import { Row, Col, Card, Divider, Button, Form, Input, message} from 'antd';
 import { connect } from 'react-redux';
 import Logo from '../../assets/celticknot.svg';
 
@@ -14,6 +14,18 @@ function SignIn(props){
                 <h1 className='title'>Yggdrasil</h1>
                 <Divider />
                 <Form className='form' layout='vertical'>
+                    <Form.Item label='Email:' className='mb-1'>
+                        <Input size='small' />
+                    </Form.Item>
+                    <Form.Item label='Password:'>
+                        <Input.Password size='small'   />
+                    </Form.Item>
+                    <Form.Item> 
+                        <Button type="primary" block>Sign in</Button>
+                    </Form.Item>
+                    <div><a>Forgot password?</a></div>
+                    <div><a>Need an account?</a></div>
+                    <Divider>or</Divider>
                     <Form.Item>
                         <Button icon={<img style={{paddingRight: '0.5em'}} src='https://www.iconfinder.com/data/icons/social-media-2210/24/Google-16.png'/>} onClick={() => 
                             {
@@ -41,7 +53,7 @@ function SignIn(props){
                                     message.error(`${errorMessage}`);
                                 });
                             }
-                        }>Sign in with Google</Button>
+                        }>Continue with Google</Button>
                     </Form.Item>
                 </Form>
             </Card>

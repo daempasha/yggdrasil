@@ -12,6 +12,7 @@ import app from 'firebase/app';
 import './App.scss';
 import 'antd/dist/antd.less';
 import Firebase from './firebase/firebase.js';
+import 'utilities-css/dist/utilities-css.css';
 
 //Pages
 import SignIn from './pages/SignIn/signin.component.jsx';
