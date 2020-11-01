@@ -1,0 +1,26 @@
+.todo {
+    .control-panel {
+        background-color: lightgrey;
+        padding: 0.5em 1em;
+    }
+
+    .notes-container {
+        height: 100%;
+        padding: 1em;
+        overflow-y: auto;
+
+    }
+
+    .item {
+        padding: 2em 2em;
+
+        &.white {
+            background-color: #ffffff;
+        }
+
+        &.grey {
+            background-color: #3DB389;
+            color: #ffffff;
+        }
+    }
+}

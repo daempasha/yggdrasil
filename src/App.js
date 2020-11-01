@@ -29,9 +29,9 @@ function App(props) {
   return (
     <Router>
       <Switch>
-        <Route path='/signin'>
+        {/* <Route path='/signin'>
           <SignIn />
-        </Route>
+        </Route> */}
         <Route path='/'>
           <Home />
         </Route>
