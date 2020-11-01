@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.53da7200.chunk.css",
-    "main.js": "/static/js/main.d01956f5.chunk.js",
-    "main.js.map": "/static/js/main.d01956f5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.af407da3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.af407da3.js.map",
-    "static/css/2.44ae4356.chunk.css": "/static/css/2.44ae4356.chunk.css",
-    "static/js/2.957e2f5b.chunk.js": "/static/js/2.957e2f5b.chunk.js",
-    "static/js/2.957e2f5b.chunk.js.map": "/static/js/2.957e2f5b.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.b556400cf731ed5898f9e59c63e6dc79.js": "/precache-manifest.b556400cf731ed5898f9e59c63e6dc79.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.44ae4356.chunk.css.map": "/static/css/2.44ae4356.chunk.css.map",
-    "static/css/main.53da7200.chunk.css.map": "/static/css/main.53da7200.chunk.css.map",
-    "static/js/2.957e2f5b.chunk.js.LICENSE.txt": "/static/js/2.957e2f5b.chunk.js.LICENSE.txt",
-    "static/media/celticknot.svg": "/static/media/celticknot.4a17f3cb.svg"
+    "main.css": "/yggdrasil/static/css/main.53da7200.chunk.css",
+    "main.js": "/yggdrasil/static/js/main.d01956f5.chunk.js",
+    "main.js.map": "/yggdrasil/static/js/main.d01956f5.chunk.js.map",
+    "runtime-main.js": "/yggdrasil/static/js/runtime-main.6438ddc3.js",
+    "runtime-main.js.map": "/yggdrasil/static/js/runtime-main.6438ddc3.js.map",
+    "static/css/2.44ae4356.chunk.css": "/yggdrasil/static/css/2.44ae4356.chunk.css",
+    "static/js/2.e27c3b2c.chunk.js": "/yggdrasil/static/js/2.e27c3b2c.chunk.js",
+    "static/js/2.e27c3b2c.chunk.js.map": "/yggdrasil/static/js/2.e27c3b2c.chunk.js.map",
+    "index.html": "/yggdrasil/index.html",
+    "precache-manifest.2c7f512e462023a147929eb30d027433.js": "/yggdrasil/precache-manifest.2c7f512e462023a147929eb30d027433.js",
+    "service-worker.js": "/yggdrasil/service-worker.js",
+    "static/css/2.44ae4356.chunk.css.map": "/yggdrasil/static/css/2.44ae4356.chunk.css.map",
+    "static/css/main.53da7200.chunk.css.map": "/yggdrasil/static/css/main.53da7200.chunk.css.map",
+    "static/js/2.e27c3b2c.chunk.js.LICENSE.txt": "/yggdrasil/static/js/2.e27c3b2c.chunk.js.LICENSE.txt",
+    "static/media/celticknot.svg": "/yggdrasil/static/media/celticknot.4a17f3cb.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.af407da3.js",
+    "static/js/runtime-main.6438ddc3.js",
     "static/css/2.44ae4356.chunk.css",
-    "static/js/2.957e2f5b.chunk.js",
+    "static/js/2.e27c3b2c.chunk.js",
     "static/css/main.53da7200.chunk.css",
     "static/js/main.d01956f5.chunk.js"
   ]
