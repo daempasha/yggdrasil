@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/daempasha/yggdrasil/static/css/main.53da7200.chunk.css",
+    "main.js": "/daempasha/yggdrasil/static/js/main.bef2f223.chunk.js",
+    "main.js.map": "/daempasha/yggdrasil/static/js/main.bef2f223.chunk.js.map",
+    "runtime-main.js": "/daempasha/yggdrasil/static/js/runtime-main.99b6866b.js",
+    "runtime-main.js.map": "/daempasha/yggdrasil/static/js/runtime-main.99b6866b.js.map",
+    "static/css/2.44ae4356.chunk.css": "/daempasha/yggdrasil/static/css/2.44ae4356.chunk.css",
+    "static/js/2.75028314.chunk.js": "/daempasha/yggdrasil/static/js/2.75028314.chunk.js",
+    "static/js/2.75028314.chunk.js.map": "/daempasha/yggdrasil/static/js/2.75028314.chunk.js.map",
+    "index.html": "/daempasha/yggdrasil/index.html",
+    "precache-manifest.616498182ab497a0136915daaa56960d.js": "/daempasha/yggdrasil/precache-manifest.616498182ab497a0136915daaa56960d.js",
+    "service-worker.js": "/daempasha/yggdrasil/service-worker.js",
+    "static/css/2.44ae4356.chunk.css.map": "/daempasha/yggdrasil/static/css/2.44ae4356.chunk.css.map",
+    "static/css/main.53da7200.chunk.css.map": "/daempasha/yggdrasil/static/css/main.53da7200.chunk.css.map",
+    "static/js/2.75028314.chunk.js.LICENSE.txt": "/daempasha/yggdrasil/static/js/2.75028314.chunk.js.LICENSE.txt",
+    "static/media/celticknot.svg": "/daempasha/yggdrasil/static/media/celticknot.4a17f3cb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99b6866b.js",
+    "static/css/2.44ae4356.chunk.css",
+    "static/js/2.75028314.chunk.js",
+    "static/css/main.53da7200.chunk.css",
+    "static/js/main.bef2f223.chunk.js"
+  ]
+}
