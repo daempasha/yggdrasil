@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c5219a08f112a5d3b80a49166835d49",
+    "revision": "da2218b81d6d6e40a60ddb6e9091c0d4",
     "url": "/yggdrasil/index.html"
   },
   {
