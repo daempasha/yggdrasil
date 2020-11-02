@@ -3,7 +3,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  HashRouter
 } from "react-router-dom";
 import app from 'firebase/app';
 
@@ -27,16 +28,18 @@ function App(props) {
   props.dispatch(STORE_TOKEN(token));
 
   return (
-    <Router>
-      <Switch>
-        {/* <Route path='/signin'>
-          <SignIn />
-        </Route> */}
-        <Route path='/'>
-          <Home />
-        </Route>
-      </Switch>
-    </Router>
+    <HashRouter basename='/'>
+      <Router>
+        <Switch>
+          {/* <Route path='/signin'>
+            <SignIn />
+          </Route> */}
+          <Route path='/'>
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
+    </HashRouter>
 
   );
 }
