@@ -5,11 +5,8 @@ import './home.styles.scss';
 import PanelSwitcher from '../../components/PanelSwitcher/panelswitcher.component.jsx';
 
 import Notes from '../../components/Notes/notes.component.jsx';
-import Gym from '../../components/Gym/gym.component.jsx';
-
 import TodoList from '../../components/TodoList/todolist.component.jsx';
 
-import moment from 'moment';
 const { Header, Content, Sider} = Layout;
 function Home(){
     const [page, setPage] = useState("notes");
@@ -27,7 +24,6 @@ function Home(){
           <Sider className='sidebar'>
                 <Menu className='menu' theme="light" mode="vertical" selectedKeys={page} onClick={data => setPage(data.key)}>
                     <Menu.Item key="notes">Notes</Menu.Item>
-                    <Menu.Item key="gym">Gym</Menu.Item>
                     <Menu.Item key="todo" disabled>To-do List</Menu.Item>
                     <Menu.Item key="daily" disabled>Daily tasks</Menu.Item>
                     <Menu.Item key="deadlines" disabled>Deadlines</Menu.Item>
@@ -41,12 +37,6 @@ function Home(){
                     page === "notes" ? 
                         <PanelSwitcher title={'Notes'} subtitle={'Just a plain pad to express all your ideas.'}>
                             <Notes />
-                        </PanelSwitcher> : null
-                }
-                {
-                    page === "gym" ? 
-                        <PanelSwitcher title={'Gym'} subtitle={`Track your gains. Competition ends in ${moment([2021, 1, 31], "YYYY-MM-DD").fromNow()} `}>
-                            <Gym />
                         </PanelSwitcher> : null
                 }
                 {
